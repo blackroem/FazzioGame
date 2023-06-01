@@ -1,13 +1,14 @@
 h1 ,h2 {
     font-size: 60px;
     text-align: auto;
-    font-family: arial;
+    font-family: calibri;
     margin: 10px;
 }
 
 button {
     display: block;
     margin: auto;
+    background-color: yellow;
 }
 .container {
     width: 600px;
