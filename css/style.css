@@ -1,6 +1,6 @@
 h1 ,h2 {
     font-size: 60px;
-    text-align: auto;
+    text-align: center;
     font-family: calibri;
     margin: 10px;
 }
@@ -8,7 +8,6 @@ h1 ,h2 {
 button {
     display: block;
     margin: auto;
-    background-color: yellow;
 }
 .container {
     width: 600px;
