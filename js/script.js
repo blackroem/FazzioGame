@@ -22,7 +22,7 @@ function randomwaktu(min, max) {
 }
 function munculkanFazzio() {
     const sRandom = randomstage(stage);
-    const wRandom = randomwaktu(500, 600)
+    const wRandom = randomwaktu(650, 750)
     sRandom.classList.add('muncul'); 
 
     setTimeout(() => {
