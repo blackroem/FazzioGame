@@ -2,6 +2,7 @@ const stage = document.querySelectorAll('.stage');
 const Fazzio = document.querySelectorAll('.Fazzio');
 const papanscore = document.querySelector('.papanscore')
 const klik = document.querySelector('#klik');
+const sound = document.querySelector('#sound');
 
 let stagesebelumnya;
 let selesai;
@@ -36,6 +37,7 @@ function munculkanFazzio() {
 function mulai() {
     selesai = false;
     score = 0;
+    sound.play();
     papanscore.textContent = 0;
     munculkanFazzio();
     setTimeout(() => {
