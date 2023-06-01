@@ -1,6 +1,7 @@
 const stage = document.querySelectorAll('.stage');
 const Fazzio = document.querySelectorAll('.Fazzio');
 const papanscore = document.querySelector('.papanscore')
+const klik = document.querySelector('#klik');
 
 let stagesebelumnya;
 let selesai;
@@ -45,6 +46,7 @@ function mulai() {
 function touch() {
     this.parentNode.classList.remove('muncul');
     score++;
+    klik.play();
     papanscore.textContent = score;
 }
 
